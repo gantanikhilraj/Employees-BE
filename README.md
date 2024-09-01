@@ -11,6 +11,14 @@ This project is a backend application for managing employee data using Express.j
 - **UUID**: Library to generate unique identifiers for new employee records.
 - **CORS**: Middleware to enable Cross-Origin Resource Sharing.
 
+## Architecture
+
+The architecture follows the MVC (Model-View-Controller) pattern:
+
+- **Controller Layer**: Handles incoming HTTP requests and invokes the appropriate service functions.
+- **Service Layer**: Contains business logic and interacts with the database using ElectroDB.
+- **Entity Layer**: Defines the data model and schema using ElectroDB.
+
 ## Project Structure
 
 - `app.js`: Main application file that sets up the Express server.
@@ -24,6 +32,9 @@ This project is a backend application for managing employee data using Express.j
 - Node.js and npm installed on your machine.
 - AWS account with DynamoDB table named `employee`.
 - Environment variables set up for AWS credentials and DynamoDB configuration.
+
+## Performing CRUD Operations
+You can use tools like Postman to interact with the API endpoints.
 
 ## Getting Started
 
@@ -39,14 +50,14 @@ cd employee-management-backend
  npm install
 ```
 
-#Set Up Environment Variables
+# Set Up Environment Variables
 ```bash
 PORT=4000
 AWS_ACCESS_KEY_ID=your-access-key-id
 AWS_SECRET_ACCESS_KEY=your-secret-access-key
 AWS_REGION=your-region
 ```
+# Run the Application
 ```bash
-#Run the Application
-- npm start
+npm start
 ```
