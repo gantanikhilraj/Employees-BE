@@ -32,15 +32,21 @@ This project is a backend application for managing employee data using Express.j
 ```bash
 git clone https://github.com/your-username/employee-management-backend.git
 cd employee-management-backend
+```
 
 # Install Dependencies
-- npm install
+```bash
+ npm install
+```
 
 #Set Up Environment Variables
+```bash
 PORT=4000
 AWS_ACCESS_KEY_ID=your-access-key-id
 AWS_SECRET_ACCESS_KEY=your-secret-access-key
 AWS_REGION=your-region
-
+```
+```bash
 #Run the Application
 - npm start
+```
