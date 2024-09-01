@@ -45,8 +45,8 @@ For a comprehensive guide on using the API endpoints, please refer to the Postma
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/employee-management-backend.git
-cd employee-management-backend
+git clone https://github.com/gantanikhilraj/Employees-BE.git
+cd Employees-BE
 ```
 
 ### Install Dependencies
