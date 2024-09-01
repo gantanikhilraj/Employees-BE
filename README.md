@@ -49,18 +49,18 @@ git clone https://github.com/your-username/employee-management-backend.git
 cd employee-management-backend
 ```
 
-# Install Dependencies
+### Install Dependencies
 ```bash
  npm install
 ```
 
-# Set Up Environment Variables
+### Set Up Environment Variables
 ```bash
 AWS_ACCESS_KEY_ID=your-access-key-id
 AWS_SECRET_ACCESS_KEY=your-secret-access-key
 AWS_REGION=your-region
 ```
-# Run the Application
+### Run the Application
 ```bash
 npm start
 ```
