@@ -36,6 +36,10 @@ The architecture follows the MVC (Model-View-Controller) pattern:
 ## Performing CRUD Operations
 You can use tools like Postman to interact with the API endpoints.
 
+### Postman Documentation
+
+For a comprehensive guide on using the API endpoints, please refer to the Postman documentation: [Postman Documentation Link](https://documenter.getpostman.com/view/29976097/2sAXjM3Wna) 🔗📘
+
 ## Getting Started
 
 ### Clone the Repository
@@ -52,7 +56,6 @@ cd employee-management-backend
 
 # Set Up Environment Variables
 ```bash
-PORT=4000
 AWS_ACCESS_KEY_ID=your-access-key-id
 AWS_SECRET_ACCESS_KEY=your-secret-access-key
 AWS_REGION=your-region
